@@ -1,0 +1,6 @@
+print("hello world")
+print("my name is Advaith")
+print(5)
+print("my age is", 13)
+print("line 1", end = " | ")
+print("line 2")
