@@ -5,7 +5,7 @@ weight = float(input("Enter your weight"))
 # 3) Calculate BMI using the formula:
 #    BMI = weight ÷ (height in meters)²
 #    (Convert height from cm to meters by dividing by 100.)
-#    Store the result in `BMI`.
+#    Store the result in `BMI`.   
 BMI = weight / (height / 100)**2
 # 4) Print the BMI value.
 print("your BMI is", BMI)
@@ -26,5 +26,5 @@ elif BMI <= 34.9:
     print("healthy")
 elif BMI <= 39.9:
     print("healthy")
-else:
+else: 
     print("healthy")
